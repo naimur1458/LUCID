@@ -1,0 +1,471 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/*******************************
+ ** LUCID css code start here **
+ *******************************/
+
+/*Global css code starts*/
+.title{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+.title h5{
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #008ed6;
+	letter-spacing: 3px;
+}
+.title h2{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 600;
+	color: #000;
+	letter-spacing: 1px;
+	margin-bottom: 17px;
+}
+/*Global css code ends*/
+
+ /*header section css start here*/
+
+ .header-section{
+ 	width: 100%;
+ 	background: url("../images/banner.png") center top no-repeat;
+ 	background-size: cover;
+ }
+ .menu{
+ 	width: 100%;
+ }
+ .menu .bg-light{
+ 	background: transparent !important;
+
+ }
+ .menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 18px;
+    text-transform: capitalize;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+	background: url("../images/bor.png") center bottom no-repeat;
+	background-size: auto;
+}
+.menu .navbar-light .navbar-nav .nav-link.active{
+	background: url("../images/bor.png") center bottom no-repeat;
+	background-size: auto;
+}
+/*banner css code start here*/
+
+.banner{
+	width: 100%;
+	padding: 80px 0px 95px;
+}
+.banner h5{
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #008ed6;
+	letter-spacing: 3px;
+}
+.banner h2{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 17px;
+}
+.banner p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #78787a;
+
+}
+.inner-btn{
+	padding: 40px 0px 0px;
+	width: 100%;
+}
+.inner-btn .btn-primary{
+	padding: 15px 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: #008ed6;
+	border-color: #008ed6;
+	border-radius: 5px;
+	margin-right: 25px;
+	transition: .5s;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border-color: #008ed6; 
+}
+.inner-btn .btn-info{
+	padding: 15px 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #999;
+	background: transparent;
+	border-color: #999;
+	border-radius: 5px;
+	transition: .5s;
+}
+.inner-btn .btn-info:hover, .inner-btn .btn-info:focus{
+	color: #fff;
+	background: #008ed6;
+	border-color: #008ed6; 
+}
+/*feature section starts*/
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-section .title{
+	text-align: center;
+}
+.inner-feature{
+	width: 100%;
+	padding: 35px 20px;
+	text-align: center;
+}
+.inner-feature .icon{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 100%;
+	border: 1px solid #eee;
+	margin: 0px auto 25px;
+}
+.inner-feature h4{
+	font-size: 22px;
+	font-weight: 500;
+	color: #000;
+}
+.inner-feature p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #999;
+}
+
+/*feature section ends*/
+
+/*about long section code starts*/
+.aboutlong-section{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.aboutlong-section .title{
+	margin-top: 40px;
+}
+.aboutlong-section .title h2{
+	font-size: 48px;
+	font-weight: 500;
+}
+.aboutlong-section p{
+	font-size: 16px;
+	color: #999;
+}
+.icon-list{
+	width: 100%;
+	display: block;
+	padding: 0px;
+	margin: 25px 0px 0px;
+}
+.icon-list li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	margin: 0px 0px 7px;
+}
+
+/*about long section code ends*/
+
+/*about short section code starts*/
+.aboutshort-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+.aboutshort-section .title{
+	margin: 60px 0px 0px;
+}
+.aboutshort-section h2{
+	font-size: 35px;
+}
+.aboutshort-section p{
+	font-size: 16px;
+	color: #999;
+}
+
+/*about short section code ends*/
+
+/*testimonial section code start*/
+.testimonial-section{
+	width: 100%;
+	padding: 80px;
+	background: url("../images/Testimonials.png") center top no-repeat;
+	background-size: cover;
+}
+.testimonial-section .title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.testimonial-section .title h2{
+	color: #fff;
+}
+.testimonial-section .owl-theme .item h4{
+	font-size: 20px;
+	color: #fff;
+	line-height: 30px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+.testimonial-section .owl-theme .round{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+.testimonial-section .owl-theme .item h5{
+	font-size: 16px;
+	color: #fff;
+	line-height: 26px;
+	margin-bottom: 0px;
+}
+.testimonial-section .owl-theme .item p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+.testimonial-section .owl-theme .owl-dots .owl-dot{
+	margin-top: 80px;
+}
+
+/*testimonial section code ends*/
+
+/*see section code start*/
+.see-section{
+	width: 100%;
+	padding: 10px 0px;
+	background: #191919;
+}
+.see-section h2{
+	font-size: 36px;
+	font-weight: 300;
+	color: #fff;
+	margin: 45px 25px;
+}
+.see-section h2 span{
+	font-weight: 700;
+}
+
+/*see section code end*/
+
+/*price section code starts*/
+.price-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.price-section .title{
+	text-align: center;
+}
+.price-box{
+	width: 100%;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	text-align: center;
+}
+.price-box .price-head{
+	width: 100%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #eee;
+}
+.price-box .price-head h2{
+	font-size: 26px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.price-box .price-inner{
+	width: 100%;
+	padding: 30px 0px;
+	border-bottom: 1px solid #eee;	
+}
+.price-box .price-inner h1{
+	font-size: 52px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.price-box .price-inner h1 sup{
+	top: -0.4em;
+	font-size: 32px;
+	font-weight: 500;
+} 
+.price-box .price-inner p{
+	font-size: 14px;
+	color: #999;
+	margin: -6px 0px 0px ;
+}
+.price-box .price-content{
+	width: 100%;
+	padding: 30px;
+}
+.price-box .price-content p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #999;
+	margin-bottom: 35px;
+}
+.price-box .price-content p a{
+	color: #008ed6;
+	font-weight: 700;
+}
+.price-box .price-content .btn-info{
+	padding: 10px 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #008ed6;
+	background: transparent;
+	border-color: #999;
+	border-radius: 5px;
+	transition: 1s;
+}
+.price-box:hover .price-head h2{
+	color: #008ed6;
+	transition: 1s;
+}
+.price-box:hover .price-inner{
+	background: #008ed6;
+	transition: 1s;
+}
+.price-box:hover .price-inner h1, .price-box:hover .price-inner p{
+	color: #fff;
+	background: #008ed6;
+	transition: 1s;
+}
+.price-box:hover .price-content .btn-info{
+	color: #fff;
+	background: #008ed6;
+	transition: 1s;
+}
+/*price section code ends*/
+
+/*contact-us section code starts*/
+.contact-us{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #ededed;
+}
+.contact-us .title{
+	text-align: center;
+}
+.contact-us .info{
+	width: 100%;
+	text-align: center;
+}
+.contact-us .info img{
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.contact-us .info p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+}
+.main-form{
+	width: 100%;
+	padding: 50px 60px 40px;
+	margin-top: 40px;
+	background: #191919;
+	margin-bottom: -70px;
+	position: relative;
+	z-index: 1;
+}
+.main-form .form-control{
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #999;
+	background: transparent;
+	border: 1px solid #999;
+}
+.text-right{
+	text-align: right;
+}
+.main-form .btn-primary{
+	padding: 16px 36px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: #008ed6;
+	border-color: #999;
+	border-radius: 5px;
+	transition: .5s;
+}
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border-color: #008ed6;
+	outline: none;
+
+}
+/*contact-us section code ends*/
+/*footer section code starts*/
+
+.footer{
+	width: 100%;
+	background: #000;
+	padding: 40px ;
+	text-align: center;
+}
+.footer a i{
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 600;
+	margin: 0px 38px;
+	color: #867fa1;
+	transition: .5s;
+}
+.footer a i:hover{
+	color: #008ed6;
+}
+.footer p{
+	font-size: 25px;
+	line-height: 35px;
+	color: #867fa1;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+/*footer section code ends*/
